@@ -235,4 +235,23 @@ h1 {
   transform: translateY(-3px);
   transition: transform 0.3s ease;
 }
+.page h1 {
+  text-shadow: 0 5px 20px rgba(0,0,0,0.6);
+}
+
+.page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+}
+
+.page {
+  position: relative;
+}
+
+.page div {
+  position: relative;
+  z-index: 2;
+}
 
