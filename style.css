@@ -108,10 +108,10 @@ body {
 
 /* FADE IN */
 .fade-in {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 0.9s ease, transform 0.9s ease;
+  opacity: 1;
+  transform: none;
 }
+
 
 .fade-in.visible {
   opacity: 1;
