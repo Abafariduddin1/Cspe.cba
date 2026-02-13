@@ -60,13 +60,15 @@ body {
   justify-content: center;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 .page div {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  position: relative;
+  z-index: 2;
 }
+
+
 
 /* BUTTON */
 .info-btn {
